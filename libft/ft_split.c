@@ -6,7 +6,7 @@
 /*   By: dlacuey <dlacuey@student42.fr>             +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/12 18:18:23 by dlacuey           #+#    #+#             */
-/*   Updated: 2023/05/15 10:33:04 by dlacuey          ###   ########.fr       */
+/*   Updated: 2023/08/01 16:41:17 by dlacuey          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ static size_t	strcount(char const *s, char c)
 	{
 		while (s[index] && s[index] == c)
 			index++;
-		if (s[index] && s[index] != c)
+		if (s[index] && s[index] != c && s[index] != '\n')
 			count += 1;
 		while (s[index] && s[index] != c)
 			index++;

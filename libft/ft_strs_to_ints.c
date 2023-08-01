@@ -6,7 +6,7 @@
 /*   By: dlacuey <dlacuey@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/25 16:02:55 by dlacuey           #+#    #+#             */
-/*   Updated: 2023/07/25 16:03:09 by dlacuey          ###   ########.fr       */
+/*   Updated: 2023/08/01 16:52:40 by dlacuey          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,14 @@
 void	ft_strs_to_ints(int *array, char **argv)
 {
 	size_t	index;
+	size_t index2;
 
 	index = 0;
+	index2 = 1;
 	while (argv[index])
 	{
-		array[index] = ft_atoi(argv[index]);
+		array[index2] = ft_atoi(argv[index]);
 		index++;
+		index2++;
 	}
 }
