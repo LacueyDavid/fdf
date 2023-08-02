@@ -6,7 +6,7 @@
 /*   By: dlacuey <dlacuey@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/07/31 06:43:14 by dlacuey           #+#    #+#             */
-/*   Updated: 2023/08/01 06:53:19 by dlacuey          ###   ########.fr       */
+/*   Updated: 2023/08/02 09:31:38 by dlacuey          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,4 +63,5 @@ void	rasterization(t_points points, t_data *img, int color)
 			points.p1.z += direction.y;
 		}
 	}
+	my_mlx_pixel_put(img, points.p1.x, points.p1.z, color);
 }
