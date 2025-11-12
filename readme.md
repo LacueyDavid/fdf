@@ -104,14 +104,3 @@ valgrind --leak-check=full ./fdf test_maps/42.fdf
 
 Projet réalisé par David Lacuey pour l'école 42.
 
-## Licence
-
-Code fourni à des fins pédagogiques. Consultez les fichiers de licence inclus (le cas échéant) avant toute redistribution.
-
-## Contribution
-
-Contributions bienvenues : ouvrez une issue ou une pull request avec des améliorations, corrections ou tests supplémentaires.
-
----
-
-Si vous voulez que j'ajoute un badge, une capture d'écran supplémentaire ou des instructions spécifiques à votre Makefile (par exemple des cibles différentes), dites-le et j'adapterai le `readme.md`.
